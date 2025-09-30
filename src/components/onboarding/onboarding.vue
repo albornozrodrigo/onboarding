@@ -54,8 +54,8 @@ const steps = [
 </script>
 
 <template>
-  <div className="max-sm:w-full min-sm:max-w-3xl text-gray-700 w-full h-full m-4">
-    <div className="rounded-lg shadow-lg p-4 gap-4 bg-gray-100 flex max-sm:flex-col h-full">
+  <div className="text-gray-700 w-full h-full mx-auto max-w-3xl">
+    <div className="rounded-lg shadow-lg p-4 gap-4 bg-gray-100 flex max-sm:flex-col w-full h-full">
       <StepIndicator :steps="steps" />
 
       <div
